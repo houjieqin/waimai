@@ -1,0 +1,430 @@
+.payBox-bg {
+    width: 100%;
+    height: 100%;
+    background: #212121;
+    opacity: 0.6;
+    margin: 0 auto;
+    z-index: 1;
+    position: fixed;
+}
+.payBox{
+    width: 5.90rem;
+    height: 3.89rem;
+    background: #fff;
+    margin: 0 auto;
+    border-radius: 0.2rem;
+    position: fixed;
+    z-index: 2;
+    top: 3.48rem;
+    left: 0;
+    right: 0;
+}
+.payT1 {
+    height: 0.92rem;
+    /*background: yellow;*/
+    border-bottom: solid 1px #eeeeee;
+    display: flex;
+}
+.payT1 img {
+    margin: auto 0.24rem;
+    opacity: 0.8;
+}
+.payT1 p{
+    font-size: 0.3rem;
+    letter-spacing: 2px;
+    color: #fa1b51;
+    margin: auto 0.92rem;
+    opacity: 0.8;
+}
+.payT2 {
+    height: 0.77rem;
+    color: #fa1b51;
+    font-family: SanFranciscoDisplay-Medium;
+    font-size: 0.24rem;
+    letter-spacing: 1px;
+    text-align: center;
+    line-height: 0.77rem;
+    border-bottom: solid 1px #eeeeee;
+}
+.payT3 {
+    height: 0.63rem;
+   /* background: yellowgreen;*/
+    display: flex;
+    border-bottom: solid 1px #eeeeee;
+    position: relative;
+}
+.payT3 p{
+    font-family: PingFang-SC-Regular;
+    font-size: 0.2rem;
+    letter-spacing: 1px;
+    color: #050505;
+    margin: auto 0.61rem;
+    opacity: 0.8;
+}
+.payT3 img {
+    color: #060606;
+    font-size: 0.3rem;
+    position: absolute;
+    opacity: 0.8;
+    right: 0.34rem;
+    top: 0.21rem;
+    bottom: 0;
+}
+.payT4 {
+    height: 0.58rem;
+    /*background: greenyellow;*/
+}
+.T4 {
+    width: 5.14rem;
+    height: 0.57rem;
+    /*background: red;*/
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.pass {
+    width: 0.16rem;
+    height: 0.16rem;
+    background: #000;
+    border-radius: 50%;
+    margin-left: 0.27rem;
+    margin-top: -0.25rem;
+    opacity: 1;
+}
+.line{
+    width: 0.64rem;
+    height: 0.09rem;
+    background: #000000;
+    background: rgba(0,0,0,0.1);
+    border-radius: 0.2rem;
+    margin-top: 0.57rem;
+}
+.line:nth-child(4){
+    background: #fa1b51;
+    opacity: 1;
+}
+.space{
+    font-size: 0.4rem;
+    margin-left: 0.15rem;
+    margin-top: -0.55rem;
+    opacity: 0.8;
+}
+.payT5 {
+    width: 5.90rem;
+    height: 0.86rem;
+    /*background: yellowgreen;*/
+    margin-top: 0.1rem;
+}
+.T5 {
+    width: 1.3rem;
+    height: 0.86rem;
+   /* background: red;*/
+    margin-left: 4rem;   /* margin-right无效果 */
+    display: flex;
+    line-height: 0.86rem;
+}
+.T5 img{
+    width: 0.2rem;
+    height: 0.2rem;
+    opacity: 0.6;
+    margin-top: 0.35rem;
+}
+.T5 p{
+    font-size: 0.2rem;
+    letter-spacing: 1px;
+    color: #050505;
+    opacity: 0.6;
+}
+.photo {
+    width: 100%;
+    height: 5.15rem;
+    background: #000;
+    z-index: 2;
+    margin: 0 auto;
+    border-radius: 0.2rem;
+    position: fixed;
+    bottom: 0rem;
+    left: 0;
+    right: 0;
+}
+.photo img{
+    width: 100%;
+    height: 5.15rem;
+}
+.background{
+    width: 7.5rem;
+    height: 13.34rem;
+    margin: 0 auto;
+    z-index: -1;
+}
+/* 确认订单头部开始 */
+.background {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+.head {
+    width: 7.5rem;
+    height: 3.4rem;
+    background-color: #ed1b4c;
+    opacity: 0.95;
+}
+
+.head-first {
+    width: 100%;
+    height: 1rem;
+    /*background: #83c44e;*/
+    display: flex;
+}
+
+.return {
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #fff;
+    display: flex;
+    margin: 0.28rem 2.35rem 1.11rem 0.23rem;
+}
+
+.return img {
+    width: 0.2rem;
+    height: 0.3rem;
+}
+.head-title {
+    width: 1.5rem;
+    height: 0.4rem;
+    margin: 0.28rem auto;
+}
+.head-title p {
+    font-size: 0.35rem;
+    color: #fffefe;
+}
+.head-second {
+    width: 100%;
+    height: 0.6rem;
+    /*background: #83c44e;*/
+    display: flex;
+}
+
+.head-second p {
+    font-size: 0.18rem;
+    letter-spacing: 1px;
+    color: #fffefe;
+    line-height: 0.5rem;
+    margin-left: 0.6rem;
+}
+
+.head-third {
+    width: 100%;
+    height: 0.6rem;
+    /*background: #83c44e;*/
+    display: flex;
+}
+
+.head-third p {
+    font-size: 0.24rem;
+    letter-spacing: 1px;
+    color: #fffefe;
+    line-height: 0.5rem;
+    margin-left: 0.6rem;
+}
+
+.head-fourth {
+    width: 100%;
+    height: 0.6rem;
+    /*background: #83c44e;*/
+    display: flex;
+}
+
+.head-fourth p {
+    font-size: 0.24rem;
+    letter-spacing: 1px;
+    color: #fffefe;
+    line-height: 0.5rem;
+    margin-left: 0.6rem;
+}
+
+.head-fourth-phone {
+    width: 0.15rem;
+    height: 0.3rem;
+    margin-left: 0.6rem;
+    margin-top: 0.1rem;
+    margin-right: -0.5rem;
+}
+
+.head-detail {
+    width: 7.02rem;
+    height: 2rem;
+    /*background: #ff6700;*/
+    margin: auto;
+    box-shadow: 0 0.05rem 0.15rem 0 rgba(0, 0, 0, 0.35);
+    border-radius: 0.1rem;
+    display: flex;
+    flex-flow: column;
+    z-index: 999;
+}
+
+.head-detail-first {
+    width: 100%;
+    height: 1.2rem;
+    /*background: #83c44e;*/
+    margin-top: 0.2rem;
+}
+
+.head-detail-first-one p {
+    font-size: 0.24rem;
+    color: #ee2755;
+    padding-top: 0.2rem;
+    margin-left: 0.5rem;
+}
+
+.head-detail-first-two p {
+    font-size: 0.2rem;
+    color: #ee2755;
+    padding-top: 0.2rem;
+    margin-left: 0.5rem;
+}
+
+.head-detail-second {
+    width: 100%;
+    height: 0.5rem;
+    /*background: #83c44e;*/
+    display: flex;
+}
+
+.head-detail-second p {
+    font-size: 0.24rem;
+    color: #ee2755;
+    padding-top: 0.1rem;
+    margin-left: 0.5rem;
+}
+
+.head-detail-second img {
+    padding-top: 0.05rem;
+    margin-left: 2.5rem;
+}
+
+.middle-name {
+    width: 7.5rem;
+    /*background: #ff6700;*/
+    padding-top: 0.5rem;
+}
+
+.middle-name p {
+    font-size: 0.3rem;
+    letter-spacing: 0.28rem;
+    color: #ee2755;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.order {
+    width: 100%;
+    height: 6.4rem;
+    background: #eee;
+    margin-top: 0.5rem;
+}
+.order-item {
+    width: 7rem;
+    height: 6.3rem;
+    /*background: #fff;*/
+    margin: 0.2rem auto;
+}
+.order-item-first {
+    width: 7rem;
+    height: 1rem;
+    background: #fff;
+    margin: 0.2rem auto;
+    display: flex;
+}
+.order-item-first-left img {
+    width: 1.05rem;
+    height: 0.75rem;
+    margin-top: 0.12rem;
+    margin-left: 0.3rem;
+}
+
+.order-item-first-left-one {
+    font-size: 0.22rem;
+    color: #000000;
+    margin-left: 2.35rem;
+    margin-top: -0.7rem;
+    margin-bottom: 0.15rem;
+}
+
+.order-item-first-left-two {
+    font-size: 0.17px;
+    color: #ed1b4c;
+    margin-left: 2.35rem;
+}
+
+.order-item-first-right {
+    width: 3.1rem;
+    height: 1rem;
+    /*background: #83c44e;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.order-item-first-right .right-jian {
+    width: 0.5rem;
+    height: 0.47rem;
+    margin-left: 2.1rem;
+    margin-top: 0.23rem;
+}
+
+.order-item-first-right .right-jia {
+    width: 0.5rem;
+    height: 0.47rem;
+    margin-left: 3.7rem;
+    margin-top: -0.7rem;
+}
+
+.order-item-first-right p {
+    font-size: 0.22rem;
+    color: #ffb20c;
+    margin-left: 2.9rem;
+    margin-top: -0.5rem;
+}
+
+.order-item-first-left .item-name {
+    font-size: 0.24rem;
+    letter-spacing: 0.01rem;
+    color: #ee2755;
+    margin-left: 0.3rem;
+    margin-top: 0.3rem;
+}
+
+.order-item-first-right .item-money {
+    font-size: 0.22rem;
+    color: #ffb20c;
+    margin-left: 6rem;
+    margin-top: 0.3rem;
+}
+
+.order-item .redfee {
+    font-size: 0.22rem;
+    letter-spacing: 0.01rem;
+    color: #ee2755;
+    margin-left: 0.3rem;
+    margin-top: -0.2rem;
+}
+/*.order-item-first-right .item-word {*/
+/*font-size: 0.22rem;*/
+/*color: #6bbf5f;*/
+/*}*/
+.pay{
+    width: 2.38rem;
+    height: 0.57rem;
+    background-color: #ffb20c;
+    border-radius: 0.3rem;
+    text-align: center;
+    margin: 0.25rem auto;
+    font-size: 0.28rem;
+    color: #fff;
+    line-height: 0.57rem;
+}
+/* 确认订单结束 */

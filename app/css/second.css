@@ -1,0 +1,365 @@
+.background {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+.head {
+    width: 7.5rem;
+    height:1.2rem;
+    background-color: #ed1b4c;
+    opacity: 0.95;
+}
+.head-first {
+    width: 100%;
+    height: 1rem;
+    /*background: #83c44e;*/
+    display: flex;
+}
+
+.return {
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #fff;
+    display: flex;
+    margin: 0.28rem 2.35rem 1.11rem 0.23rem;
+}
+
+.return img {
+    width: 0.2rem;
+    height: 0.3rem;
+}
+.head-title {
+    width: 1.5rem;
+    height: 0.4rem;
+    margin: 0.28rem auto;
+}
+.head-title p {
+    font-size: 0.35rem;
+    color: #fffefe;
+}
+.title {
+    width: 7.02rem;
+    height: 1.77rem;
+    background-color: #ffffff;
+    box-shadow: 0rem 0.05rem 0.15rem 0rem rgba(0, 0, 0, 0.35);
+    border-radius: 0.1rem;
+    margin: 0.2rem 0.24rem 9.99rem 0.24rem;
+    position: relative;
+    padding-top: 0.28rem;
+}
+
+.picture {
+    width: 1.23rem;
+    height: 1.26rem;
+    position: absolute;
+    margin: 0rem 5.55rem 0rem 0.24rem;
+    background-color: black;
+    box-shadow: 0rem 0.05rem 0.15rem 0rem rgba(238, 39, 85, 0.6);
+}
+
+.picture img {
+    width: 1.23rem;
+    height: 1.26rem;
+}
+.right {
+    width: 5rem;
+    height: 1.26rem;
+    /*background-color: pink;*/
+    margin-left: 1.8rem;
+}
+
+.first {
+    height: 0.3rem;
+    display: flex;
+    /*background: #83c44e;*/
+}
+
+.first p {
+    width: 0.93rem;
+    height: 0.25rem;
+    color: black;
+    font-size: 0.22rem;
+    margin-left: 0;
+}
+
+.first img {
+    height: 0.3rem;
+    float: right;
+}
+
+.second {
+    width: 100%;
+    height: 0.3rem;
+    display: flex;
+    /*background: #ff6700;*/
+}
+.second p {
+    width: 3.2rem;
+    height: 0.25rem;
+    color: black;
+    font-size: 0.19rem;
+    margin-left: 0;
+    flex-wrap: wrap;
+}
+
+.third {
+    width: 100%;
+    height: 0.3rem;
+    display: flex;
+    /*background: gainsboro;*/
+}
+
+.third p {
+    font-size: 0.19rem;
+    color: #ee2755;
+    margin-left: 0;
+    width: 0.5rem;
+}
+
+.detail {
+    width: 4.6rem;
+    /*background:blue ;*/
+}
+
+.detail p {
+    width: 3rem;
+    font-size: 0.19rem;
+    color: black;
+    margin-left: 0;
+    flex-wrap: wrap;
+}
+
+.fourth {
+    width: 100%;
+    height: 0.3rem;
+    display: flex;
+    /*background: gainsboro;*/
+}
+
+.fourth p {
+    font-size: 0.19rem;
+    color: #ffb20c;
+    margin-left: 0;
+    width: 0.5rem;
+}
+
+.detail2 {
+    width: 4.6rem;
+    /*background:blue ;*/
+}
+
+.detail2 p {
+    width: 4rem;
+    font-size: 0.19rem;
+    color: black;
+    margin-left: 0;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.detail2 img {
+    width: 0.16rem;
+    height: 0.11rem;
+    margin-left: 4rem;
+    margin-top: -0.15rem;
+}
+.kind{
+    width: 5.15rem;
+    height: 0.55rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.4rem auto;
+    text-align: center;
+}
+.one{
+    width: 1rem;
+    height:0.5rem;
+    background-color: #ed1b4c;
+    border-radius: 0.25rem;
+}
+.kind span{
+    width: 0.46rem;
+    height: 0.24rem;
+    font-size: 0.25rem;
+    color: #ffffff;
+    line-height: 0.5rem;
+}
+.two{
+    width: 1rem;
+    height:0.5rem;
+    background-color: #ed1b4c;
+    border-radius: 0.25rem;
+    opacity: 0.6;
+}
+.bd{
+    width: 7.5rem;
+    height: 8.3rem;
+    background-color: #eee;
+    margin-top: 2.5rem;
+    display: flex;
+}
+.left {
+    width: 1.68rem;
+    height: 6.17rem;
+    display: flex;
+    flex-flow: column wrap;
+    padding: 0.23rem;
+     /*background: pink;*/
+    justify-content: space-around;
+    text-align: center;
+}
+.three {
+    width: 1.2rem;
+    height: 0.5rem;
+    border-radius: 25px;
+    border: solid 0.03rem #ed1b4c;
+    text-align: center;
+
+}
+.three span{
+    font-size: 0.24rem;
+    letter-spacing: 0.01rem;
+    color: #ed1b4c;
+    line-height: 0.4rem;
+    width: 0.46rem;
+    height: 0.24rem;
+    text-align: center;
+}
+.three p{
+    width: 1.1rem;
+    height: 0.24rem;
+    font-size: 0.24rem;
+    letter-spacing: 0.01rem;
+    color: #fcf8f9;
+    line-height: 0.4rem;
+    text-align: center;
+}
+.three:nth-child(8){
+    background-color: #ed1b4c;
+}
+.bd-right{
+    width: 5.5rem;
+    height: 7.77rem;
+    /*background: red;*/
+}
+.bd-right-item{
+    width: 5.5rem;
+    height: 1.62rem;
+    background-color: #fff;
+    border-radius: 0.1rem;
+    margin-top: 0.3rem;
+    display: flex;
+}
+.bd-right-item img{
+    width:1.63rem;
+    height: 1.29rem;
+    margin-top: 0.17rem;
+}
+.right-item{
+    width: 4.12rem;
+    height: 1.62rem;
+    /*background: blue;*/
+}
+.title2{
+    font-size: 0.25rem;
+    letter-spacing: 0;
+    color: #000000;
+    opacity: 0.6;
+    float: left;
+    margin-top: 0.1rem;
+    margin-left: 0.08rem;
+}
+.right-item img{
+    width: 1.5rem;
+    height:0.3rem;
+    margin-top: 0.1rem;
+    margin-left:1.5rem ;
+}
+.price2{
+    width: 0.65rem;
+    height: 0.15rem;
+    font-size: 0.19rem;
+    letter-spacing: 0;
+    color: #ed1b4c;
+    margin-left: 0.08rem;
+    margin-top: 0.3rem;
+}
+.vip2{
+    width: 2rem;
+    height: 0.3rem;
+    font-size: 0.19rem;
+    letter-spacing: 0;
+    color: #ffb20c;
+    margin-top: -0.15rem;
+    margin-left: 1rem;
+}
+.num2{
+    width: 1rem;
+    height: 0.19rem;
+    font-size: 0.19rem;
+    letter-spacing: 0;
+    color: #010000;
+    opacity: 0.6;
+    margin-top: 0.2rem;
+    margin-left: 0.08rem;
+}
+.jia img{
+    width: 0.51rem;
+    height: 0.54rem;
+    margin-left: 3rem;
+    margin-top: -0.6rem;
+}
+.footer{
+    width: 7.5rem;
+    height: 1.1rem;
+    /*background-color: red;*/
+    border-radius: 0.1rem;
+    margin-bottom: 0;
+}
+.car2{
+    width: 0.63rem;
+    height: 0.63rem;
+    margin-left: 0.58rem;
+    padding-top: 0.25rem;
+}
+.car2 img{
+    width: 0.63rem;
+    height: 0.63rem;
+}
+.money {
+    width: 1.18rem;
+    height: 0.3rem;
+    margin-left: 1rem;
+    margin-top:-0.7rem ;
+}
+.money p{
+    font-size: 0.25rem;
+    color: #000000;
+}
+.fee{
+    width: 3.04rem;
+    height: 0.26rem;
+    font-size: 0.25rem;
+    margin-left: 1rem;
+    margin-top: 0.2rem;
+    color: #000000;
+    opacity: 0.6;
+}
+.dot3{
+    width: 1.12rem;
+    height: 0.41rem;
+    background-color: #666666;
+    border-radius: 0.19rem;
+    margin-left: 5.5rem;
+    margin-top: -0.55rem;
+}
+.dot3 p{
+    width: 0.9rem;
+    height:0.25rem;
+    font-size: 0.25rem;
+    color: #ffffff;
+    text-align: center;
+    margin-left: 0.1rem;
+}

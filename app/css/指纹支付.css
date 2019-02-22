@@ -1,0 +1,357 @@
+.payBox-bg {
+    width: 100%;
+    height: 100%;
+    background: #212121;
+    opacity: 0.6;
+    margin: 0 auto;
+    z-index: 1;
+    position: fixed;
+}
+.fingerPay {
+    width: 5.9rem;
+    height: 4.95rem;
+    background: #FFFFFF;
+    z-index: 2;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 4rem;
+    margin: 0 auto;
+}
+.payT1 {
+    height: 0.92rem;
+    /*background: yellow;*/
+    border-bottom: solid 1px #eeeeee;
+    display: flex;
+}
+.payT1 img {
+    margin: auto 0.24rem;
+    opacity: 0.8;
+}
+.payT1 p{
+    font-size: 0.3rem;
+    letter-spacing: 2px;
+    color: #fa1b51;
+    margin: auto 1.4rem;
+    opacity: 0.8;
+}
+.payT2 {
+    height: 0.77rem;
+    color: #fa1b51;
+    font-family: SanFranciscoDisplay-Medium;
+    font-size: 0.24rem;
+    letter-spacing: 1px;
+    text-align: center;
+    line-height: 0.77rem;
+    border-bottom: solid 1px #eeeeee;
+}
+.pay-last {
+    width: 100%;
+    height: 3.26rem;
+    /*
+    background: #bce8f1;
+    */
+    float: left;
+}
+.lastPay {
+    width: 1.8rem;
+    height: 2.08rem;
+    /*
+    background: hotpink;
+    */
+    margin: 0.2rem auto;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column;
+}
+.lastPay img {
+    width: 1.06rem;
+    height: 1.06rem;
+    margin: 0 auto;
+    opacity: 0.8;
+}
+.lastPay p {
+    font-family: PingFang-SC-Regular;
+    font-size: 0.2rem;
+    letter-spacing: 1px;
+    color: #050505;
+    opacity: 0.6;
+    line-height: 0.19rem;
+    text-align: center;
+}
+.background{
+    width: 7.5rem;
+    height: 13.34rem;
+    margin: 0 auto;
+    z-index: -1;
+}
+/* 确认订单头部开始 */
+.background {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+.head {
+    width: 7.5rem;
+    height: 3.4rem;
+    background-color: #ed1b4c;
+    opacity: 0.95;
+}
+
+.head-first {
+    width: 100%;
+    height: 1rem;
+    /*background: #83c44e;*/
+    display: flex;
+}
+
+.return {
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #fff;
+    display: flex;
+    margin: 0.28rem 2.35rem 1.11rem 0.23rem;
+}
+
+.return img {
+    width: 0.2rem;
+    height: 0.3rem;
+}
+.head-title {
+    width: 1.5rem;
+    height: 0.4rem;
+    margin: 0.28rem auto;
+}
+.head-title p {
+    font-size: 0.35rem;
+    color: #fffefe;
+}
+.head-second {
+    width: 100%;
+    height: 0.6rem;
+    /*background: #83c44e;*/
+    display: flex;
+}
+
+.head-second p {
+    font-size: 0.18rem;
+    letter-spacing: 1px;
+    color: #fffefe;
+    line-height: 0.5rem;
+    margin-left: 0.6rem;
+}
+
+.head-third {
+    width: 100%;
+    height: 0.6rem;
+    /*background: #83c44e;*/
+    display: flex;
+}
+
+.head-third p {
+    font-size: 0.24rem;
+    letter-spacing: 1px;
+    color: #fffefe;
+    line-height: 0.5rem;
+    margin-left: 0.6rem;
+}
+
+.head-fourth {
+    width: 100%;
+    height: 0.6rem;
+    /*background: #83c44e;*/
+    display: flex;
+}
+
+.head-fourth p {
+    font-size: 0.24rem;
+    letter-spacing: 1px;
+    color: #fffefe;
+    line-height: 0.5rem;
+    margin-left: 0.6rem;
+}
+
+.head-fourth-phone {
+    width: 0.15rem;
+    height: 0.3rem;
+    margin-left: 0.6rem;
+    margin-top: 0.1rem;
+    margin-right: -0.5rem;
+}
+
+.head-detail {
+    width: 7.02rem;
+    height: 2rem;
+    /*background: #ff6700;*/
+    margin: auto;
+    box-shadow: 0 0.05rem 0.15rem 0 rgba(0, 0, 0, 0.35);
+    border-radius: 0.1rem;
+    display: flex;
+    flex-flow: column;
+    z-index: 999;
+}
+
+.head-detail-first {
+    width: 100%;
+    height: 1.2rem;
+    /*background: #83c44e;*/
+    margin-top: 0.2rem;
+}
+
+.head-detail-first-one p {
+    font-size: 0.24rem;
+    color: #ee2755;
+    padding-top: 0.2rem;
+    margin-left: 0.5rem;
+}
+
+.head-detail-first-two p {
+    font-size: 0.2rem;
+    color: #ee2755;
+    padding-top: 0.2rem;
+    margin-left: 0.5rem;
+}
+
+.head-detail-second {
+    width: 100%;
+    height: 0.5rem;
+    /*background: #83c44e;*/
+    display: flex;
+}
+
+.head-detail-second p {
+    font-size: 0.24rem;
+    color: #ee2755;
+    padding-top: 0.1rem;
+    margin-left: 0.5rem;
+}
+
+.head-detail-second img {
+    padding-top: 0.05rem;
+    margin-left: 2.5rem;
+}
+
+.middle-name {
+    width: 7.5rem;
+    /*background: #ff6700;*/
+    padding-top: 0.5rem;
+}
+
+.middle-name p {
+    font-size: 0.3rem;
+    letter-spacing: 0.28rem;
+    color: #ee2755;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.order {
+    width: 100%;
+    height: 6.4rem;
+    background: #eee;
+    margin-top: 0.5rem;
+}
+.order-item {
+    width: 7rem;
+    height: 6.3rem;
+    /*background: #fff;*/
+    margin: 0.2rem auto;
+}
+.order-item-first {
+    width: 7rem;
+    height: 1rem;
+    background: #fff;
+    margin: 0.2rem auto;
+    display: flex;
+}
+.order-item-first-left img {
+    width: 1.05rem;
+    height: 0.75rem;
+    margin-top: 0.12rem;
+    margin-left: 0.3rem;
+}
+
+.order-item-first-left-one {
+    font-size: 0.22rem;
+    color: #000000;
+    margin-left: 2.35rem;
+    margin-top: -0.7rem;
+    margin-bottom: 0.15rem;
+}
+
+.order-item-first-left-two {
+    font-size: 0.17px;
+    color: #ed1b4c;
+    margin-left: 2.35rem;
+}
+
+.order-item-first-right {
+    width: 3.1rem;
+    height: 1rem;
+    /*background: #83c44e;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.order-item-first-right .right-jian {
+    width: 0.5rem;
+    height: 0.47rem;
+    margin-left: 2.1rem;
+    margin-top: 0.23rem;
+}
+
+.order-item-first-right .right-jia {
+    width: 0.5rem;
+    height: 0.47rem;
+    margin-left: 3.7rem;
+    margin-top: -0.7rem;
+}
+
+.order-item-first-right p {
+    font-size: 0.22rem;
+    color: #ffb20c;
+    margin-left: 2.9rem;
+    margin-top: -0.5rem;
+}
+
+.order-item-first-left .item-name {
+    font-size: 0.24rem;
+    letter-spacing: 0.01rem;
+    color: #ee2755;
+    margin-left: 0.3rem;
+    margin-top: 0.3rem;
+}
+
+.order-item-first-right .item-money {
+    font-size: 0.22rem;
+    color: #ffb20c;
+    margin-left: 6rem;
+    margin-top: 0.3rem;
+}
+
+.order-item .redfee {
+    font-size: 0.22rem;
+    letter-spacing: 0.01rem;
+    color: #ee2755;
+    margin-left: 0.3rem;
+    margin-top: -0.2rem;
+}
+/*.order-item-first-right .item-word {*/
+/*font-size: 0.22rem;*/
+/*color: #6bbf5f;*/
+/*}*/
+.pay{
+    width: 2.38rem;
+    height: 0.57rem;
+    background-color: #ffb20c;
+    border-radius: 0.3rem;
+    text-align: center;
+    margin: 0.25rem auto;
+    font-size: 0.28rem;
+    color: #fff;
+    line-height: 0.57rem;
+}
+/* 确认订单结束 */

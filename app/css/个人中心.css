@@ -1,0 +1,206 @@
+.background{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+.head-2{
+    width: 7.5rem;
+    height: 1.8rem;
+    background-color: #ed1b4c;
+    opacity: 0.95;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 0.89rem;
+}
+.head-2-shezhi{
+    width: 0.4rem;
+    height: 0.4rem;
+    margin-left: 0.24rem;
+    margin-top: 0.24rem;
+}
+.head2-title{
+    width: 4rem;
+    height: 0.5rem;
+}
+.head2-title{
+    font-size: 0.38rem;
+    color: #fffefe;
+    margin-top: -0.3rem;
+    margin-left: 3rem;
+}
+.head-2-bianji{
+    width: 0.4rem;
+    height: 0.4rem;
+    margin-left: 6.4rem;
+    margin-top: -0.65rem;
+}
+.head2-detail{
+    width: 7.02rem;
+    height: 2.5rem;
+    background-color: #ffffff;
+    box-shadow: 0 0.05rem 0.15rem 0
+    rgba(0, 0, 0, 0.35);
+    border-radius: 0.1rem;
+    border-top:0.89rem ;
+    margin-left: auto;
+    margin-right:auto;
+    display: flex;
+}
+.head2-detail-left{
+    width: 2rem;
+    height: 2rem;
+    background-color: #fff;
+    margin-top: 0.24rem;
+    margin-left: 0.24rem;
+}
+.head2-detail-left img{
+    width: 100%;
+    height:100%;
+}
+.head2-detail-right{
+    width: 5.2rem;
+    /*background: #ff6700;*/
+}
+.head2-detail-right p:first-child{
+    font-size: 0.24rem;
+    color: #000000;
+    opacity: 0.6;
+    margin-left: 0.2rem;
+    margin-top: 0.33rem;
+}
+.head2-detail-right .vip3 {
+    width: 0.24rem;
+    height: 0.19rem;
+    margin-left: 2.5rem;
+    margin-top: -0.23rem;
+}
+.head2-detail-right .supervip{
+    font-size: 0.2rem;
+    color: #000000;
+    opacity: 0.6;
+    margin-left: 2.8rem;
+    margin-top: -0.25rem;
+}
+.head2-detail-right .sign{
+    font-size: 0.24rem;
+    color: #000000;
+    opacity: 0.6;
+    margin-left: 0.2rem;
+    margin-top: 0.3rem;
+}
+.head2-detail-right .phone{
+    width: 0.15rem;
+    height: 0.3rem;
+    margin-left: 0.2rem;
+    margin-top: 0.3rem;
+}
+.head2-detail-right .phone-number{
+    font-size: 0.22rem;
+    color: #000000;
+    opacity: 0.8;
+    margin-left: 0.7rem;
+    margin-top: -0.3rem;
+}
+
+.head2-kind{
+    width: 100%;
+    height: 1rem;
+    /*background: #ff6700;*/
+    margin-top: 0.2rem;
+    display: flex;
+    margin-bottom: 0.24rem;
+}
+.head2-kind-first {
+    width: 1.8rem;
+    height: 1rem;
+    /*background: plum;*/
+    line-height: 0.25rem;
+    margin-left: 0.5rem;
+    padding-top: 0.2rem;
+}
+.head2-kind-first-price {
+    width: 1.8rem;
+    height: 0.18rem;
+    font-size: 0.24rem;
+    color: #ed1b4c;
+    text-align: center;
+}
+.head2-kind-first-money{
+    width: 1.8rem;
+    height: 0.23rem;
+    font-size: 0.24rem;
+    color: #010101;
+    opacity: 0.6;
+    text-align: center;
+    margin-top: 0.3rem;
+}
+.head2-function{
+    width: 100%;
+    height: 5.9rem;
+    background: #eee;
+    display: flex;
+    flex-flow: column;
+}
+.head2-function-first {
+    width: 7.02rem;
+    height: 0.88rem;
+    background: lightgrey;
+    margin-left: 0.24rem;
+    margin-top: 0.3rem;
+    padding-top: -0.5rem;
+}
+.head2-function-first .qiandao{
+    width: 0.7rem;
+    height: 0.7rem;
+    margin-left: 0.1rem;
+    margin-top: 0.1rem;
+}
+.head2-function-first p{
+    font-size: 0.24rem;
+    margin-left: 1.2rem;
+    margin-top: -0.5rem;
+    color: #000000;
+    opacity: 0.6;
+}
+.head2-function-first .xiangyou{
+    width: 0.14rem;
+    height: 0.28rem;
+    opacity: 0.6;
+    margin-left: 6.3rem;
+    margin-top: -0.3rem;
+}
+.footer{
+    width: 7.5rem;
+    height: 0.7rem;
+    /*background: #999999;*/
+    margin: 0.45rem auto 0.4rem;
+}
+.footer-item{
+    width: 7.5rem;
+    height: 0.68rem;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-list{
+    width: 1rem;
+    height: 0.7rem;
+    /*background: #ff6700;*/
+    text-align: center;
+}
+.footer-list img{
+    width: 0.43rem;
+    height: 0.43rem;
+    margin:0 auto;
+}
+.word{
+    width: 1rem;
+    height: 0.18rem;
+    font-size: 0.18rem;
+    color: #585858;
+    display: inline-block;
+    position: relative;
+    top: 0.06rem;
+}
+.first{
+    color: #fa4369;
+}
